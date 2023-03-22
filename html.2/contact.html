@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page HTML</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Accueil </a></li>
+            <li><a href="contact.html"> Contact </a></li>
+            <li><a href="jeu.html"> Jeu </a></li>
+        </ul>
+    </nav>
+        <main class="container">
+    <form action="" method="post">
+        <h2>Formulaire</h2><br>
+    <div>
+        <label" for="email">Email:</label>
+        <input class="form-field" id="email" type="email" name="email" placeholder="Entrez votre email" >
+    </div>
+
+    <div>
+        <label for="subject">Sujet:</label>
+        <select id="subject" class="form-field">
+            <option value="1">Item 1</option>
+            <option value="2">Item 2</option>
+            <option value="3">Item 3</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="message">Message:</label>
+        <textarea  class="form-field" rows="5" placeholder="Entrez votre message" id="message"></textarea>
+        
+    </div>
+
+    <div>
+        <label for="important">Important</label>
+        <input type="checkbox" checked name="important" id="important">
+    </div>
+
+    <div>
+        <input type="submit" name="send" value="Contacter">
+    </div>
+    <p>Formulaire de la page</p>
+    </form>
+</main>
+
+</main>
+</body>
+</html>
