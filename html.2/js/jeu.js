@@ -9,7 +9,10 @@ let chrono = 10;
 let chronoElement = document.querySelector('#chrono');
 chronoElement.innerHTML = chrono;
 
-box.addEventListener("click", () => {
+const refreshButton = document.querySelector('#restart');
+
+
+/*box.addEventListener("click", () =>*/ function handleClick(){
     console.log('click sur la box !');
     click += 1;
     scoreElement.innerHTML = click;
@@ -21,7 +24,8 @@ box.addEventListener("click", () => {
     box.style.top = `${top}px`;
     // box.style.backgroundColor = "gray";
     box.style.left = `${left}px`;
-});
+};
+box.addEventListener('click', handleClick);
 
 setInterval (() => {
     console.log("timer");
@@ -31,9 +35,16 @@ setInterval (() => {
     }
 
     if(chrono === 0) {
-        box.removeEventListener('click', () =>{});
+        box.removeEventListener('click', handleClick);
         clearInterval("timer");
+        console.log("Temps écoulé !");
+        
     }
 }, 1000)
+
+refreshButton.addEventListener('click', () => {
+    location.reload();
+});
+
 
 //celulle stockage .. Pour avoir un meilleur score
