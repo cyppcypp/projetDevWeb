@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+  margin: 20px 0;
+  color: aqua;
+}
+
+.btn, .btnall{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+  }
+
+  .btn#test0, .btn#test{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: left;
+    
+  }
+
+.btn:hover, .btnall:hover, .btn#test0:hover, .btn#test:hover{
+    background-color: #940000;
+}
+
+.btn,#persos:hover, #logout:hover{
+    background-color: cornflowerblue;
+    
+  } 
+
+#nav{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#nav a{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+
+  }
+  
+.row{
+  display: flex;
+}
+
+
