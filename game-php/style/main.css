@@ -1,0 +1,205 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+h1{
+  margin: 20px 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnconnexion{
+  background-color: #6441A5;
+  color: white;
+  padding: 13px 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 10px;
+  border:rgb(47, 132, 207);
+}
+
+.btn{
+  background-image: linear-gradient(to right, #6d757d 0%, #63778d  51%, #313d4a  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btnperso{
+  background-image: linear-gradient(to right, #6441A5 0%, #7643d5  51%, #6441A5  100%);
+  margin: auto;
+  padding: 15px 45px;
+  text-align: center;
+  font-size: medium;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100px;
+}
+
+.btnplay{
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  width: 100px;
+  box-shadow: 0 0 20px #eee;
+  padding: 15px 45px;
+}
+
+.btnplay:hover{
+  background-image: linear-gradient(to right, #6441A5 0%, #7643d5  51%, #6441A5  100%);
+  color: white;
+  transition: box-shadow 0.3s ease; 
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  
+}
+
+.btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btnconnexion:hover{
+  transition: box-shadow 0.3s ease; 
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.6s;
+  background-color: #7643d5;
+}
+
+.btnperso:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav, .titre{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav .nav_link ul{
+  display: flex;
+}
+
+.nav_link{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titre{
+  display: flex;
+  font-size: 40px;
+}
+
+a:visited, a:link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav#titre{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.nav_link a{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+
+  }
+  
+.row{
+  display: flex;
+}
+
+.table{
+  width: 100%;
+  margin-top: 20px;
+}
+
+td{
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.containerFight{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+} 
+
+.tableM{
+    width: 40%; /* Prend 40% de la page */  
+    text-align: center;
+    border: 2px solid black; /* epaisseur / type de trait / couleur */
+    margin: 50px auto; /* taille ->haut et éguille d'une montre */
+    border-collapse: collapse;
+}
+
+tr#m, td#m, th#acheter{
+  border: 2px solid black;
+}
+
+form{
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+
+input[type=email], input[type=password], input[type=text]{
+  padding-top: 5px;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  margin: 10px;
+  width: auto;
+  border-radius: 4px;
+}
+
+p{
+  font-size: large;
+}
+
+a#cliquer{
+  color: #6441A5;
+}
+
+h2{
+  color: #6441A5;
+}
+
+
+
