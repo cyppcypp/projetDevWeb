@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    color: white;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/055/083/258/large/ian-smith-iansmithartist-dragonrise-artstationchallenge-02.jpg?1666085238);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.titreperso{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Ombre portée */
+    color: #fff;
+}
+
+h1#perso{
+    font-size: 50px;
+}
+

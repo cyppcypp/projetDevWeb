@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/014/571/529/large/dominik-zdenkovic-12072018-img-dz-z-skyrim-boss-fight-fixes.jpg?1544537110);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+.action{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Ombre portée */
+    color: #fff;
+}
+
+.table{
+    color: rgb(255, 255, 255);
+}
+
+
+   
+   

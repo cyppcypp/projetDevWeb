@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/016/660/422/large/jonas-hassibi-dorffestdes-friedens-painting-020-2000px.jpg?1552994457);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+.btnperso{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 700px;
+    background-color: rgb(227, 227, 227);
+}
+
+.px-4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+
+.p{
+    
+    font-size: large;
+    margin-top: 50px;
+}

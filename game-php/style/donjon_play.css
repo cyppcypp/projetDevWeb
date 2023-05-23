@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color: white;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/063/101/596/large/kamila-szutenberg-03-30-2023-karamissa.jpg?1684738825);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1#play{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombre portée */
+    color: #fff;
+}
+
+
+.btnplayR {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    margin-left: 600px;
+  }
+  
+  .btnplayR:focus,
+  .btnplayR:hover {
+    color: #fff;
+  }
+  
+  .btnplayR:focus:after,
+  .btnplayR:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .btnplayR:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }

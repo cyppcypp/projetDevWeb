@@ -1,0 +1,421 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+h1{
+  margin: 20px 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1#perso{
+  color: black;
+}
+
+.play{
+  color: black;
+}
+
+.btnconnexion{
+  background-color: rgb(192, 90, 12);
+  color: white;
+  padding: 13px 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 10px;
+  border:rgb(0, 0, 0);
+}
+
+         
+.btn{
+  background-image: linear-gradient(to right, rgb(202, 109, 37) 0%,  rgb(192, 90, 12) 51%, rgb(202, 109, 37)  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+}
+
+.btnplay {
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #b60000;
+  border: 1px solid #b60000;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #db0000;
+  transition: all .1s;
+  margin-right: 10px;
+ }
+ 
+ .btnplay:active {
+  box-shadow: 0px 2px 0px #b60000;
+  position: relative;
+  top: 2px;
+ }
+
+.btnplay:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.btnconnexion:hover{
+  transition: box-shadow 0.3s ease; 
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.6s;
+  background-color: #7643d5;
+}
+
+.btnperso {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.btnperso:hover {
+  background-color: #46cc2f;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 60px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 550px;
+  padding-bottom: 30px;
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after, button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after, button:hover::before {
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav, .titre{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav .nav_link ul{
+  display: flex;
+}
+
+.nav_link{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titre{
+  display: flex;
+  font-size: 40px;
+}
+
+
+a:visited, a:link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav#titre{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.nav_link a{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+  }
+  
+.row{
+  display: flex;
+}
+
+.table{
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+td{
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* .containerFight{
+  width: 40%;
+  margin: auto;
+}  */
+
+.choixcombat{
+  width: 200x;
+  height: 50px;
+}
+
+.tableM{
+    width: 40%; /* Prend 40% de la page */  
+    text-align: center;
+    border: 2px solid black; /* epaisseur / type de trait / couleur */
+    margin: 50px auto; /* taille ->haut et éguille d'une montre */
+    border-collapse: collapse;
+}
+
+form{
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+
+input[type=email], input[type=password], input[type=text]{
+  padding-top: 5px;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  margin: 10px;
+  width: auto;
+  border-radius: 4px;
+}
+
+p{
+  font-size: large;
+}
+
+a#cliquer{
+  color: rgb(192, 90, 12);
+}
+
+.mt-2 {
+  margin-top: 1.1rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.me-2 {
+  margin-right: 1.1rem;
+}
+
+.px-4 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/004/689/218/large/siwoo-kim-sdfsdf.jpg?1485535474);
+  background-size: cover;
+  background-color: rgb(220, 220, 220);
+  padding: 20px 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease; 
+  margin: 10px;
+  position: fixed;
+  top: 2;
+  left: 2;
+}
+
+.px-4:hover{
+ background-color: rgb(255, 255, 255);
+ box-shadow: 0 0 50px rgb(114, 114, 114);
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.px-4#fight {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/004/689/218/large/siwoo-kim-sdfsdf.jpg?1485535474);
+    background-size: cover;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+    position: fixed;
+    top: 100;
+    left: 2;
+  }
+  
+.px-4#fight:hover{
+ background-color: rgb(255, 255, 255);
+ box-shadow: 0 0 50px rgb(114, 114, 114);
+}
+
+.boxlogin{
+      background-color: rgba(255, 255, 255, 0.864);
+      border-radius: 10px;
+      width: auto;
+      height: 200px; 
+}
+
+img#login{
+    width: 100%; /* Largeur de l'image pour remplir la div */
+    height: 150px; /* Hauteur de l'image pour remplir la div */
+    object-fit: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+.loginback{
+  background-color: black;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/035/862/666/large/jln-mck-fe3h-03-01.jpg?1616089574);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1#perso{
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Ombre portée */
+}
+
+p#marchand{
+  text-align: center;
+}
+
+.deroulerfight{
+  margin-left: 30%;
+  margin-right: 40%;
+}
+
+.ennemi{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/002/381/997/large/veli-nystrom-goblin-assassin.jpg?1461068620);
+  background-size: cover;
+  background-color: rgb(220, 220, 220);
+  padding: 20px 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease; 
+  margin: 10px;
+  margin-top: 10px;
+  position: fixed;
+  top: 100;
+  right: 2;
+}
+
+.ennemi:hover{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 50px rgb(114, 114, 114);
+ }
+
+ .btnplay#combat{
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 40%;
+ }
+
+ .btnplay#action{
+  margin-left: 20%;
+  margin-right: 10px;
+ }
+
+ th#nom, td#nom{
+  text-align: left;
+ }
+
+input[type=submit]{
+  margin: auto;
+}
+
+th#nom{
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+
+}
+
+/* formulaire connexion bouton */
+.input {
+  max-width: 190px;
+  height: 44px;
+  background-color: #05060f0a;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #05060f99;
+  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: #05060f;
+}
+
+.input-group:hover .label, .input:focus {
+  color: #05060fc2;
+}
+/* */
+
+
+
